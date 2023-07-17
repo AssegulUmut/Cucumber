@@ -33,4 +33,15 @@ public class Runner {
     EGER eksik adim yoksa,
     bu durumu raporlamak icin Test PASSED isaretlenir
 
+    features = "src/test/resources",
+        glue = "stepdefinitions",
+
+        bu iki klasor birbiriyle iliskilendirildigi icin bu klasorlerin
+        altındaki tum file'ler ve clss'lar iliskilidir
+        Cucumber da file ve class,2lari 1-1 eslestirmek yerine tumunu eslestirir
+
+        Eger siz spesifik olarak 1 feature'i, belirledigiiz 1 stepdefiniation class'i
+        ile calismasini isterseniz Runner class'inda
+
+
  */

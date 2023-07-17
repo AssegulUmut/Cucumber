@@ -1,5 +1,6 @@
 package stepdefinitions;
 
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
@@ -31,8 +32,23 @@ public class QdStepdefinitions {
     }
     @Then("basarili olarak giris yapildigini test eder")
     public void basarili_olarak_giris_yapildigini_test_eder() {
-        Assert.assertTrue(basarili_olarak_giris_yapildigini_test_eder();
+        Assert.assertTrue(qdPage.basariliGirisKontrolElementi.isDisplayed());
 
     }
 
+    @Then("basarili olarak giris yapilamadigini test eder")
+    public void basariliOlarakGirisYapilamadiginiTestEder() {
+        Assert.assertFalse(qdPage.basariliGirisKontrolElementi.isDisplayed());
+    }
+
+    @And("password kutusuna kutusuna listeden {string} yazar")
+    public void passwordKutusunaKutusunaListedenYazar(String listedekiPassword) {
+        qdPage.passwordKutusu.sendKeys(listedekiPassword);
+
+    }
+
+    @And("email kutusuna listeden {string}yazar")
+    public void emailKutusunaListedenYazar(String listedekiUserName) {
+        qdPage.emailKutusu.sendKeys(listedekiUserName);
+    }
 }

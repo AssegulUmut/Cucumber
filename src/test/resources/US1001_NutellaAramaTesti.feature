@@ -1,5 +1,4 @@
 Feature: US1001 Nutella arama testi
-
   Scenario: TC01 Kullanici amazonda Nutella arayabilmeli
 
     Given kullanici amazon anasayfaya gider

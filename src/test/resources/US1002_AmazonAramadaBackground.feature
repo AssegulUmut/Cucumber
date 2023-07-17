@@ -1,5 +1,5 @@
 Feature: US1002 Kullanici Background kullanarak amazonda istedigi aramalari yapar
- # Scenario'lardaki ortak baslangic adimlari icin kullanilir
+  # Scenario'lardaki ortak baslangic adimlari icin kullanilir
   Background:
     Given kullanici amazon anasayfaya gider
 
