@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="27.207" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="US1001 Nutella arama testi" name="TC01 Kullanici amazonda Nutella arayabilmeli" time="26.712">
+<system-out><![CDATA[
+Given kullanici amazon anasayfaya gider.....................................passed
+Then arama kutusuna Nutella yazip, ENTER tusuna basar.......................passed
+And arama sonuclarinin Nutella icerdigini test eder.........................passed
+And sayfayi kapatir.........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

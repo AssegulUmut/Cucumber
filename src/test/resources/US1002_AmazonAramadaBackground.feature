@@ -1,5 +1,5 @@
 Feature: US1002 Kullanici Background kullanarak amazonda istedigi aramalari yapar
-  # Scenario'lardaki ortak baslangic adimlari icin kullanilir
+   # Scenario'lardaki ortak baslangic adimlari icin kullanilir
   Background:
     Given kullanici amazon anasayfaya gider
 
@@ -15,7 +15,7 @@ Feature: US1002 Kullanici Background kullanarak amazonda istedigi aramalari yapa
     And arama sonuclarinin Samsung icerdigini test eder
     And sayfayi kapatir
 
-
+  @regression
   Scenario: TC06 Kullanici amazonda Java aratabilmeli
     Then arama kutusuna Java yazip, ENTER tusuna basar
     And arama sonuclarinin Java icerdigini test eder

@@ -1,4 +1,5 @@
 Feature: US1001 Nutella arama testi
+  @s
   Scenario: TC01 Kullanici amazonda Nutella arayabilmeli
 
     Given kullanici amazon anasayfaya gider
@@ -13,9 +14,12 @@ Feature: US1001 Nutella arama testi
     And arama sonuclarinin Samsung icerdigini test eder
     And sayfayi kapatir
 
-
+@r
   Scenario: TC03 Kullanici amazonda Java aratabilmeli
     Given kullanici amazon anasayfaya gider
     Then arama kutusuna Java yazip, ENTER tusuna basar
     And arama sonuclarinin Java icerdigini test eder
     And sayfayi kapatir
+
+
+

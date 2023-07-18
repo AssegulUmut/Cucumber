@@ -1,0 +1,15 @@
+stepdefinitions\AutomationExerciseStepdefiniations.class
+runners\RaporRunner.class
+pages\HerokuPage.class
+stepdefinitions\HerokuStepdefinitions.class
+pages\AmazonPage.class
+stepdefinitions\Hooks.class
+stepdefinitions\AmazonStepdefinitions.class
+runners\Runner.class
+utilities\Driver.class
+pages\AutoExercisePage.class
+pages\QdPage.class
+runners\ParalelRunner1.class
+runners\ParalelRunner2.class
+utilities\ConfigReader.class
+stepdefinitions\QdStepdefinitions.class
